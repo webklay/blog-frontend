@@ -1,0 +1,21 @@
+{
+  "name": "my-gridsome-site",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/source-strapi": "^0.2.0",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "gridsome": "^0.7.0",
+    "imagemin-pngquant": "^5.0.1",
+    "markdown-it": "^12.0.6",
+    "pngquant-bin": "^3.1.1"
+  }
+}
