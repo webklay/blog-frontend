@@ -124,17 +124,17 @@ export default {
   },
   methods: {
     async onSubmit () {
-      try{
-        const { data } = await axios({
-        method: 'POST',
-        url: 'http://localhost:1337/contacts',
-        data: this.form
-       })
-       console.log('send', data);
-       window.alert('发送成功');
-      }catch(e){
-        window.alert('发送失败,请稍后重试');
-      }
+      // try{
+      //   const { data } = await axios({
+      //   method: 'POST',
+      //   url: 'http://localhost:1337/contacts',
+      //   data: this.form
+      //  })
+      //  console.log('send', data);
+      //  window.alert('发送成功');
+      // }catch(e){
+      //   window.alert('发送失败,请稍后重试');
+      // }
       
     }
   }
